@@ -16,7 +16,7 @@ public class MetaDataDemo {
 	public static String dbPassword = "Neotech@123";
 
 	// DB url format: jdbc:jdbctype://ipaddress:portnumber/db_name
-	public static String dbUrl = "jdbc:mysql://147.182.216.34:3306 /classicmodels";
+	public static String dbUrl = "jdbc:mysql://147.182.216.34:3306/classicmodels";
 
 	@Test
 	public void dbMetaData() throws SQLException {

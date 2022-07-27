@@ -28,6 +28,8 @@ public class GET_Account {
 		.body("userId", is(APIGlobalVariables.userID))
 		.and()
 		.body("username", equalTo("Neotech_SB"));
+//		.and()
+//		.body("books.size()", is(2)); //we could also verify the size of the book array
 		
 	}
 	

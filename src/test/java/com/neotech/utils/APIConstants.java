@@ -12,6 +12,8 @@ public class APIConstants {
 	
 	public static final String ADD_LIST_OF_BOOKS_ENDPOINT = "/Bookstore/v1/Books";
 	
+	public static final String UPDATE_ONE_BOOK_ENDPOINT ="/Bookstore/v1/Books/{ISBN}";
 	
+	public static final String DELETE_ALL_BOOKS_ENDPOINT = "/Bookstore/v1/Books";
 
 }

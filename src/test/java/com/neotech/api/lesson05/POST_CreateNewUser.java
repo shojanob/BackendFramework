@@ -13,7 +13,7 @@ public class POST_CreateNewUser {
 	public void createUserTest() {
 
 		String payload = "{\n" 
-		+ "  \"userName\": \"Neotech_SB\",\r\n" 
+		+ "  \"userName\": \"Neotech_EL\",\r\n" 
 		+ "  \"password\": \"Neotech@2022\"\r\n" 
 		+ "}";
 

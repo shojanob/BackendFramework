@@ -18,7 +18,7 @@ public class POST_GenerateToken {
 		RestAssured.baseURI = APIConstants.BASE_URI;
 		
 		String payload = "{\n" 
-		+ "  \"userName\": \"Neotech_SB\",\r\n" 
+		+ "  \"userName\": \"Neotech_EL\",\r\n" 
 		+ "  \"password\": \"Neotech@2022\"\r\n" 
 		+ "}";
 		
